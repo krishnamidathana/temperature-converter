@@ -29,7 +29,7 @@ kelvininp.addEventListener("input", () => {
   let cTemp = kTemp - 273.15;
   let fTemp = (kTemp - 273.15) * (9 / 5) + 32;
   celciuesinp.value = round(cTemp);
-  kelvininp.value = round(fTemp);
+  fahrenheitinp.value = round(fTemp);
 });
 
 allClear.addEventListener("click", () => {
